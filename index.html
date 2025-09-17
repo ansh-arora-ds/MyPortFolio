@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arpit Govil Portfolio</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- AOS (Animate on Scroll) CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: url('') no-repeat center center fixed;
+            background-size: auto;
+            background-position: auto;
+            background-color: black;
+        }
+        
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 glass px-8 py-4 flex justify-between items-center text-white">
+        <h1 class="text-2xl font-bold text-blue-400">Ansh Arora</h1>
+        <ul class="flex space-x-6 text-sm">
+            <li><a href="#home" class="hover:text-blue-300 transition">Home</a></li>
+            <li><a href="#about" class="hover:text-blue-300 transition">About</a></li>
+            <li><a href="#skills" class="hover:text-blue-300 transition">Skills</a></li>
+            <li><a href="#projects" class="hover:text-blue-300 transition">Projects</a></li>
+            <li><a href="#resume" class="hover:text-blue-300 transition">Resume</a></li>
+            <li><a href="#contact" class="hover:text-blue-300 transition">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="min-h-screen flex items-center justify-center text-center px-4 " data-aos="fade-in">
+        <div class="glass p-10 max-w-2xl hover:scale-105 hover: transition duration-500">
+            <h2 class="text-4xl md:text-6xl font-extrabold text-blue-300">Hi, I'm <span class="text-4xl md:text-6xl font-extrabold text-white">Ansh</span> Arora </h2>
+            <p class="text-lg md:text-xl text-white mt-4"> <span class="text-lg md:text-2xl font-bold text-blue-300 ">Front-End</span> Developer |<span class="text-lg md:text-2xl font-bold text-blue-300 "> UI/UX </span> Designer </p>
+            <a href="#contact" class="inline-block mt-6 px-6 py-2 bg-white text-blue-400 rounded-full hover:bg-blue-300 hover:text-white hover:scale-105 hover: transition duration-300 transition ">Contact
+        Me</a>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-16 px-6 max-w-4xl mx-auto glass my-10 text-center " data-aos="fade-up">
+        <h2 class="text-3xl font-bold mb-6 text-white">My <span class="text-lg md:text-4xl font-bold text-blue-300 ">Resume</span></h2>
+        <p class="mb-6 text-white">
+            Looking for a passionate Front-End Developer? Here's my resume with skills, experience, and projects.
+        </p>
+        <div class="flex justify-center gap-4">
+            <a href="resume.pdf" download class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-white hover:text-blue-400 hover:scale-105 hover: transition duration-400 transition">Download Resume</a>
+            <a href="resume.pdf" target="_blank" class="px-6 py-3 border border-blue-400 text-blue-400 rounded-lg hover:bg-blue-600 hover:text-white hover:scale-105 hover: transition duration-400 transition">
+        View Resume</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-20 px-6 max-w-5xl mx-auto glass my-10 text-center " data-aos="fade-up">
+        <div class="hover:scale-105 hover: transition duration-500">
+            <h2 class="text-3xl font-bold mb-8 text-blue-300">About <span class="text-lg md:text-4xl font-bold text-white ">Me</span></h2>
+            <p class="text-white max-w-4xl mx-auto">
+                Hi, I’m a Front-End Developer and UI/UX Designer who loves creating clean, user-friendly, and visually engaging digital experiences. I focus on building responsive websites using modern HTML, CSS, and JavaScript while keeping design aesthetics in mind.</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-20 px-6 max-w-5xl mx-auto glass my-10" data-aos="fade-up">
+        <h2 class="text-4xl font-bold mb-8 text-center text-white">Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-black ">
+            <div class="p-4 bg-blue-100 rounded-lg hover:scale-105 hover:bg-red-400 hover:text-white hover:scale-105 transition">HTML</div>
+            <div class="p-4 bg-blue-100 rounded-lg hover:scale-105 hover:bg-blue-600 hover:text-white hover:scale-105 transition">CSS</div>
+            <div class="p-4 bg-blue-100 rounded-lg hover:scale-105 hover:bg-yellow-300 hover:text-white hover:scale-105 transition">JavaScript</div>
+            <div class="p-4 bg-blue-100 rounded-lg hover:scale-105 hover:bg-blue-300 hover:text-white hover:scale-105 transition">React</div>
+            <div class="p-4 bg-blue-100 rounded-lg hover:scale-105 hover:bg-white hover:text-blue-900 hover:scale-105 transition">Tailwind</div>
+            <div class="p-4 bg-blue-100 rounded-lg hover:scale-105 hover:bg-orange-300 hover:text-blue-600 hover:scale-105 transition">MySQL</div>
+            <div class="p-4 bg-blue-100 rounded-lg hover:scale-105 hover:bg-white hover:text-red-500 hover:scale-105 transition">Java</div>
+            <div class="p-4 bg-blue-100 rounded-lg hover:scale-105 hover:bg-green-300 hover:text-red-600 hover:scale-105 transition">FIGMA</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-20 px-6 max-w-5xl mx-auto glass my-10" data-aos="fade-up">
+        <h2 class="text-3xl font-bold mb-8 text-center text-blue-300">Projects </h2>
+        <div class="grid md:grid-cols-2 gap-8 text-black">
+            <div class="bg-blue-100 p-6 rounded-lg shadow-lg hover:scale-105 transition">
+                <h3 class="text-xl font-semibold mb-2 text-black">TodoReminderApp</h3>
+                <p>A task reminder app that help you to remind about your task you can add your tasks in it and set time in minutes, so it will keep reminding you in every minutes and set a particular time in a day to remind you at that time, and this app
+                    also works in background by shifting itself in system tray.</p>
+                <a href="https://github.com/ansh-arora-ds/TodoReminderApp " target="_blank" class="inline-block mt-4 text-black underline hover:text-blue-600">View Project</a>
+            </div>
+            <div class="bg-blue-100 p-6 rounded-lg shadow-lg hover:scale-105 transition">
+                <h3 class="text-xl font-semibold mb-2 text-black">Avengers Initiative</h3>
+                <p>A minimalist and visually engaging Superhero Card display using HTML and CSS — designed to highlight popular Avengers with sleek layout and essential info.</p>
+                <a href="https://avengers-card-main.vercel.app/" target="_blank" class="inline-block mt-4 text-black underline hover:text-blue-600">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 px-6 max-w-4xl mx-auto glass my-10" data-aos="fade-up">
+        <h2 class="text-3xl font-bold mb-8 text-center text-blue-300">Get in Touch 📩</h2>
+        <form class="grid gap-4 text-black">
+            <input type="text" placeholder="Your Name" class="p-3 rounded bg-grey-50 border border-black focus:outline-none focus:border-blue-400" />
+            <input type="email" placeholder="Your Email" class="p-3 rounded bg-grey-50 border border-black focus:outline-none focus:border-blue-400" />
+            <textarea rows="5" placeholder="Your Message" class="p-3 rounded bg-grey-50 border border-black focus:outline-none focus:border-blue-400"></textarea>
+            <button type="submit" class="px-6 py-3 bg-white rounded text-blue-600 hover:bg-blue-600 hover:text-white transition">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm py-6 text-white bg-black/40">
+        © 2025 Ansh Arora. Made with ❤️
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
