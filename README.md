@@ -2,7 +2,7 @@
 
 Welcome to my personal developer portfolio! This site is designed to showcase who I am, what I build, and where I’m heading in tech. Built using **HTML**, **Tailwind CSS**, and **JavaScript**, it’s fully responsive, dark-mode ready, and animated for a smooth user experience. 🌙✨
 
-🌐 **Live Website**: [View Portfolio](https://your-username.github.io/portfolio)
+🌐 **Live Website**:([https://your-username.github.io/portfolio](https://my-port-folio-chi-ruddy.vercel.app/)
 
 ---
 
